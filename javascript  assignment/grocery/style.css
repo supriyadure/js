@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(47, 58, 54);
+}
+.first{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 300px;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    background-color: coral;
+
+}
+.first hr{
+    width: 50%;
+   
+}
+#btn1{
+    padding: 10px;
+    border-radius: 24px;
+    font-size: larger;
+    margin-top: 20px;
+}
+.second{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px 300px;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    background-color: cornflowerblue;
+
+}
+#btn2{
+    padding: 10px;
+    font-size: larger;
+    border-radius: 24px;
+}
+.btn3{
+    float: right;
+    padding: 10px;
+}

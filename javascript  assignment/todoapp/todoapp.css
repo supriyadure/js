@@ -1,0 +1,42 @@
+.writ1 #inp1{
+    width: 20rem;
+    padding: 10px;
+    background-color: aqua;
+}
+.app p{
+    text-align: center;
+}
+.app h1{
+    text-align: center;
+}
+.app1{
+    background-color: darkcyan;
+    height: 10vh;
+}
+#btn1{
+    padding: 10px;
+    background-color: aqua;
+
+}
+.para{
+    position: relative;
+    font-size: 20px;
+    /* margin-left: 10px; */
+    font-style: italic;
+left: 100px;
+top: 6px;
+}
+.btn2{
+    /* margin-left:55%; */
+     position: absolute;
+left: 850px;
+
+}
+.btn3{
+     position: absolute;
+    left: 750px;
+}
+.app{
+    height: 10%;
+    background-color: rgb(67, 67, 94);
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        img{
+            width:800px;
+            height: 500px;
+            position: relative;
+            z-index: -1;
+            border: 1px solid chartreuse;
+        }
+        #btn1{
+position: absolute;
+top: 200px;
+padding: 20px;
+left:8px;
+
+
+        }
+        #btn2{
+            position: absolute;
+top: 200px;
+padding: 20px;
+left: 745px;
+        }
+    </style>
+</head>
+<body>
+   <button id="btn1"><</button>
+   <button id="btn2">></button>
+   <img src="images/p1.jpg" alt="photo" id="one">
+   <script>
+
+    var images=["images/p1.jpg","images/p2.jpg","images/p3.jpg","images/p4.jpg"];
+var im=document.getElementById("one");
+var i=0;
+     var btn1=document.getElementById("btn1");
+     var btn2=document.getElementById("btn2");
+     btn1.addEventListener("click",mysli);
+     btn2.addEventListener("click",mysli);
+     
+     btn1.style.fontSize="xx-large";
+     btn2.style.fontSize="xx-large";
+       
+    function mysli(){
+        document.getElementById("one").src=images[i];
+        im.style.width="800px";
+im.style.height="500px";
+        if(i<(images.length-1))
+        i++;
+        else
+i--;
+        
+    }
+        
+
+
+   </script>
+</body>
+</html>

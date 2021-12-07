@@ -1,0 +1,52 @@
+h1{
+    margin-left: 70px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first{
+    width: 50%;
+    border: 1 px solid green;
+    background-color: antiquewhite;
+    
+}
+#btn1,#btn2{
+    padding: 20px;
+    margin-left: 20rem;
+    margin-bottom: 10px;
+}
+.first #inp1{width: 98%;
+    height: 50px;
+    
+
+}
+.first h2{
+    text-align: center;
+}
+.right1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 750px;
+    margin-top: -200px;
+}
+.second{
+    margin-top: 80px;
+    border: 1px solid black;
+    width: 50%;
+    background-color: cadetblue;
+    margin-left: 60px;
+}
+
+.second h2{
+    text-align: center;
+}
+.second #inp2,#inp3{
+    width: 99%;
+    height: 50px;
+}
+.exp3{
+    margin-left: 96%;
+display: none;
+}

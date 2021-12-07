@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text"placeholder="enter your name" class="pal">
+    <button id=btn>check</button>
+    <p id=para>this is paldrome</p>
+    <script>
+         
+const btn=document.getElementById("btn");
+const para=document.getElementById("para");
+btn.addEventListener("click",checkpal);
+function checkpal(){
+    const word=document.querySelector(".pal").value;
+let len=word.length;
+let start=word.substring(0,Math.floor(len/2)).toLowerCase();
+let end=start.substring(len-Math.floor(len/2)).toUpperCase();
+para.innerHTML=end;
+
+}
+
+    </script>
+</body>
+</html>

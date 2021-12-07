@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head1"></h1>
+    <input type="number" id="inp1">
+    <button id="btn1">Tip1</button>
+    <script>
+         let head1=document.querySelector("#head1")
+        let inp1=document.querySelector("#inp1")
+        let btn1=document.querySelector("#btn1")
+        let cal=()=>{
+           let result= Math.ceil(inp1.value*0.15);
+head1.innerHTML=`You Should tip ${result} on $ ${inp1.value}`
+        }
+        btn1.addEventListener("click",cal)
+    </script>
+</body>
+</html>

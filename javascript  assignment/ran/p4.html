@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .two{
+            border: 1 px solid black;
+            height: 400px;
+            width: 700px;
+            background-color: burlywood;
+            margin: 200px 300px;
+            display: flex;
+            flex-direction: column;
+        }
+h1,h3{
+    text-align: center;
+}
+        button{
+            width: 200px;
+             margin: auto;
+             padding: 10px;
+        }
+        input{
+            width: 93%;
+            padding: 20px;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body><div class="two">
+    <h1>A Messge You Would Like To Pass</h1>
+    <input type="text" id="inp1" value=""><br><br>
+    <button id="btn1">Submit</button>
+    <h3>Last Message Delivered</h3>
+    <p id="paragraph"></p>
+    </div>
+    <script>
+        var paragraph1=document.getElementById("paragraph");
+       var inp1=document.getElementById("inp1");
+       var btn1=document.getElementById("btn1");
+       btn1.addEventListener("click",event);
+      
+
+       function event(){
+           if(inp1.value!=0){
+    let textv=inp1.value;
+paragraph1.innerHTML=`${textv} your msg submitted`;
+}
+
+
+ if(inp1.value==0){
+    alert("plz enter message")
+    paragraph1.innerHTML=""
+}
+inp1.value=""
+       } 
+    
+    </script>
+</body>
+</html>

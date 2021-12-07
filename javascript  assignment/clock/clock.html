@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            border: 1px solid black;
+            background-color: cadetblue;
+            width: 100%;
+        }
+        .sec{
+            background-color: rgb(100, 117, 83);
+            padding: 50px;
+        }
+        #btn{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="one">
+        <div class="sec">
+            <b>What is Time</b>
+    <p id=b1></p>
+    <p id="p1"> Time is</p>
+    <button id="btn">Click Me!</button>
+    </div></div>
+    <script>
+        let b1=document.getElementById("b1")
+         let s1=document.getElementById("p1");
+         let btn=document.getElementById("btn");
+      btn.addEventListener("click",clocktimie)
+     //s btn.addEventListener("dblclick",ans)
+         function clocktimie(){ 
+        var d=new Date();
+        var d1=d.toLocaleTimeString();
+       s1.innerHTML=d1;
+       btn.textContent="Timing!!!"
+    setInterval(clocktimie,1000)
+    
+        }
+        
+       
+    </script>
+</body>
+</html>

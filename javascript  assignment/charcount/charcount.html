@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.first{
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: xx-large;
+}
+input[type=text]{
+    padding: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="first">
+   <h2>Input character count</h2> 
+   <span class="countn">0</span>
+   <hr>
+   <input type="text" class="input">
+   </div>
+   <script>
+const countn=document.querySelector(".countn")
+const countnum=document.querySelector(".input")
+countnum.addEventListener("keyup",fun1)
+function  fun1() {
+  
+    countn.innerHTML=countnum.value.length;
+    
+}
+   </script>
+</body>
+</html>

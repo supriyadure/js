@@ -1,0 +1,44 @@
+#num1{
+    width: 20%;
+   height: 20vh;
+   background-color: aquamarine;
+  box-shadow: 0 1rem 1rem black;
+   margin-right: 10px;
+}
+h1{
+    color: rgb(193, 193, 236);
+    text-align: center;
+}
+ #num2{
+    width: 20%;
+   height: 20vh;
+   background-color: aquamarine;
+   box-shadow: 0 1rem 1rem black;
+   margin-right: 10px;
+}
+   
+
+#num3{
+    width: 20%;
+   height: 20vh;
+   background-color: aquamarine;
+   box-shadow: 0 1rem 1rem black;
+   margin-right: 10px;
+}
+   
+
+#num4{
+    width: 20%;
+   height: 20vh;
+   background-color: aquamarine;
+   box-shadow: 0 1rem 1rem black;
+}
+ .first{
+     display: flex;
+     justify-content: center
+ }  
+
+#p1,#p2,#p3,#p4{
+    font-size: 2rem;
+    text-align: center;
+}

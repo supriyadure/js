@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="budget.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h1>BUDGET APP</h1>
+    <div class="main">
+    <div class="first">
+        <h2>Please Enter your budget</h2>
+        <input type="number" id="inp1"><br><br>
+<button id="btn1">calculate</button>
+    </div>
+    
+        <div class="budget1">
+    <h2>Budget</h2>
+ <i class="fa fa-money" style="font-size:48px;color:black"></i>
+ <h1 id="head1" style="margin-left: 10px;">$0</h1>
+ </div>
+    <div class="expense">
+    <h1 style="margin-left: 10px; margin-top: 10px;">Expense</h1>
+    <i class="fa fa-cc-diners-club" style="font-size:48px;color:black"></i>
+    <h1 id="head2" style="margin-left:15px;">$0</h1>
+</div>
+<div class="balance">
+    <h2 >Balance</h2>
+    <i class="fa fa-dollar" style="font-size:48px; color:black"></i>
+<h1 id="head3" style="margin-left:10px;">$0</h1>   
+</div>
+
+</div>
+<p id="message"></p>
+<div class="second">
+        
+        <div class="total">
+        <h2>Please Enter Your Expenses</h2>
+        <input type="text" id="inp2">
+        <h2>Please Enter Your Expenses amount</h2>
+        <input type="number" id="inp3"><br><br>
+        <button id="btn2">Add Expense</button></div></div>
+       
+<div class="right1">
+    <div class="exp1">
+   <h2>Expense Title</h2>
+   <h1 id="exptitle"></h1>
+   </div>
+   <div class="exp2">
+    <h2>Expense Value</h2></div>
+    <h1 id="expvalue"> </h1>
+    </div>
+    <div class="exp3">
+       <i class='fa fa-edit'style='font-size:20px ;color: blue;'></i>
+        <i class='fa fa-cut' style='font-size:20px ;color: red;'></i>
+        </div>
+   
+        </div>
+    
+    <script src="budget.js"></script>
+</body>
+</html>

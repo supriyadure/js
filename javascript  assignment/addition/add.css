@@ -1,0 +1,31 @@
+.first,.second{
+    width: 5rem;
+    height: 5rem;
+    background-color: aqua;
+font-size: xx-large;
+text-align: center;
+padding-top: 10px;
+   
+}
+.addition{
+    display: flex;
+    width: 50%;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin:15rem;
+    
+}
+#adds,#equal{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+input{
+    width: 40%;
+    height: 30px;
+}
+body{
+    background-color: burlywood;
+}

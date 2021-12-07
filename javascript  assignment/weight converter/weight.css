@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: cornflowerblue;
+
+}
+#inp1{
+    width: 20%;
+    height: 30px;
+}

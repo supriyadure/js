@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(218, 208, 226);
+        }
+        #one{
+             margin:300px 500px;
+            border: 1px solid grey;
+            height: 300px;
+            width: 400px;
+            outline: none;
+            background-color: grey;
+        }
+         button{
+            padding: 10px;
+            margin-top: 40px;
+            margin-left: 100px;
+background-color: greenyellow;
+box-shadow: 5px 12px 5px 5px rgb(112, 128, 90) ;
+        }
+    </style>
+</head>
+<body><div id="one">
+    <button>Generate Quote</button>
+    <p id="para"></p></div>
+    <script>
+        let para=document.querySelector("#para");
+    var quot=[
+        '"Life is too short and sweet to be spent by cribbing and complaining about things. Here are some random quotes about the most wonderful gift that weve got."',
+    "'A critic is someone who never actually goes to the battle, yet who afterwards comes out shooting the wounded-pqr'",
+"'The price of anything is the amount of life you exchange for it-xyz'"
+    ]
+    var len=quot.length;
+    var btn1=document.querySelector("button")
+    btn1.addEventListener("click",event);
+    function event(){
+        let ran=quot[Math.floor(Math.random()*len)];
+        para.innerHTML=ran;
+    }
+    </script>
+</body>
+</html>
+ 

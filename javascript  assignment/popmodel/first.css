@@ -1,0 +1,45 @@
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#btn1{
+    padding: 1rem;
+    border-radius: 12px;
+    font-size: large;
+}
+#btn1:hover{
+    background-color:rgb(94, 82, 82);
+
+}
+.second{
+    width: 30rem;
+    border: 1px solid black;
+    position: relative;
+    top: -45rem;
+    left: 40rem;
+    display: none;
+    z-index: 1;
+}
+.second h2{
+    text-align: center;
+}
+.second i{
+float: right;
+margin-top: -3rem;
+}
+/* @media screen and (min-width: 360px) {
+    .second{
+      width:20rem;
+      border: 1px solid black;
+    position: relative;
+    top: -30remrem;
+    
+    display: none;
+    z-index: 1;
+}
+
+    }
+  } */

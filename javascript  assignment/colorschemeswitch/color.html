@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.one{
+    width: 5rem;
+    height: 5rem;
+    background-color: cadetblue;
+    border-radius: 100%;
+}
+.two{width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background-color: coral;
+    margin-left: 10px;
+}
+.three{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    background-color: cornsilk;
+margin-left: 10px;
+}
+.four{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+background-color:black;
+margin-left: 10px;
+}
+.colorschem{
+    display: flex;
+    
+}
+.one,.two,.three,.four{
+    border:1px solid black;
+}
+.changec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+    </style>
+</head>
+<body>
+    <div class="changec">
+    <div class="name1">
+        <h1 class="textwhite">Color Scheme Switcher</h1>
+        </div>
+        <div class="colorschem">
+        <div class="one" onclick="changec('#5F9EA0')"> </div>
+<div class="two" onclick="changec('	rgb(255, 127, 80)')">
+</div>
+<div class="three" onclick="changec('#fff8dc')"></div>
+<div class="four" onclick="changec('#000000')"></div></div>
+<h3 class="textwhite">Try clicking on one of the colors above
+to change the background color of this page!</h3>
+    </div>
+<script src="change.js"></script>
+
+</body>
+</html>

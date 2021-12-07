@@ -1,0 +1,59 @@
+.first button{
+    margin: 20px;
+margin-left: 5rem;
+
+
+ }
+.second button{
+    margin: 20px;
+   margin-left: 5rem;
+}
+.third button{
+    margin: 20px;
+  margin-left: 5rem;
+}
+.fourth button{
+    margin: 20px;
+   margin-left: 5rem;
+}
+.fifth button{
+    margin: 20px;
+    margin-left: 5rem;
+    width: 27vw;
+}
+
+#display{
+    margin-left: 5rem;
+    margin-top: 5rem;
+    width: 85%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    opacity: 0.5;
+} 
+h1{
+    text-align: center;
+}
+button{
+    background-color: tan;
+     width: 3rem;
+    margin:10px ;
+    color: white;
+    text-align: center;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.5;
+}
+
+
+.main{
+    background-image: url(image.jpg);
+    width:40vw;
+ height: 70vh;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+    margin-left: 30%;
+}

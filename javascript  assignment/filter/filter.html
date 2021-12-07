@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    integrity="sha384-tKLJeE1ALTUwtXlaGjJYM3sejfssWdAaWR2s97axw4xkiAdMzQjtOjgcyw0Y50KU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light as">
+        <div class="container-fluid mx-5 as">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="images/dou2.jpg" alt="" width="50" height="40">
+                  </a>
+                </div>
+              </nav>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent ">
+           
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5 px-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Store</a>
+              </li>
+            
+            </ul>
+            <form class="d-flex mx-5">
+                <i class="bi bi-telephone-fill">
+                  + 123 456 789</i>
+      
+            </form>
+            <div id="cart-info">
+            <form class="d-flex mx-5">
+                <i class="bi bi-cart-plus-fill"></i>
+                  <p><span>2</span><span> items-$</span>
+                 <span>104</span></p>
+                 </form>
+                 </div>
+          </div>
+        </div>
+      </nav>
+<!-- navbar end -->
+<div class="parall">
+    <p>Welcome To<b> Grandma's</b></p>
+    <button>EXPLORE</button>
+
+
+</div>
+<!-- parra end -->
+<div class="para">
+    <div class="para1">
+   <h2> About <i>us<i></h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo architecto ipsam magnam tempora minima debitis distinctio corrupti dicta accusamus. Consequatur qui architecto fugiat facilis vero aliquam, molestias sequi ipsa odit?</p></div>
+    
+<img src="images/cake5.jpg"></div>
+<!-- search start -->
+<div class="last cart">
+    <h2>our <i>store</i></h2>
+    <button class="btn  active" data-filter="all">All</button>
+    <button class="btn" data-filter="cake">cake</button>
+    <button class="btn" data-filter="cupcake">cupcake</button>
+    <button class="btn" data-filter="sweet">sweet</button>
+ <button class="btn" data-filter="doughnut">Doughnut</button>
+    <div class="las">
+    <input type="text" placeholder="search">
+    <button id="search">search</button></div>
+         </div>
+ <!-- search end -->
+ <!-- card star here -->
+ <div class="container-fluid my-5" id="store-item">
+     <div class= "row shadow cake">
+         <div class="col-md-4 ">
+             <img src="images/cake1.jpg" alt="" width="400px" height="400px"></div>
+          <div class="col-md-4">
+            <img src="images/cake2.jpg" alt="" width="400px" height="400px">  </div>
+        <div class="col-md-4">
+            <img src="images/cake3.jpg" alt=""width="400px" height="400px">
+
+        </div>
+    </div>
+    <div class= "row my-5 shadow cupcake ">
+        <div class="col-md-4">
+            <img src="images/cup.jpg" alt="" width="400px" height="400px"></div>
+         <div class="col-md-4">
+           <img src="images/cup2.jpg" alt="" width="400px" height="400px">  </div>
+       <div class="col-md-4">
+           <img src="images/cup3.jpg" alt=""  data-filter="travel"width="400px" height="400px">
+
+       </div>
+   </div>
+   <div class= "row my-5 shadow sweet ">
+    <div class="col-md-4 ">
+        <img src="images/dou1.jpg" alt="" width="400px" height="400px"></div>
+     <div class="col-md-4">
+       <img src="images/dou2.jpg" alt=""width="400px" height="400px">  </div>
+   <div class="col-md-4">
+       <img src="images/dou3.jpg" alt="" width="400px" height="400px">
+
+   </div>
+</div>
+<div class= "row my-5 shadow dou">
+    <div class="col-md-4">
+        <img src="images/s1.jpg" alt="" data-filter="travel" width="400px" height="400px"></div>
+     <div class="col-md-4">
+       <img src="images/s2.jpg" alt="" data-filter="travel"width="400px" height="400px">  </div>
+   <div class="col-md-4">
+       <img src="images/s3.jpg" alt="" data-filter="travel" width="400px" height="400px">
+
+   </div>
+</div>
+
+ </div>
+ <!-- js link -->
+ 
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+  <script src="one.js"></script>
+</html>
